@@ -1,0 +1,16 @@
+.fotos {
+  display: flex;
+  
+  flex-wrap: wrap;
+  padding-top: 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+  img {
+    display: flex;
+    margin: 5px;
+
+    height: 500px;
+  }
+}
